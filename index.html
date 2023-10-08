@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #particles-js {
+            width: 100%;
+            height: 100vh;
+            background-image: url('./images/waifu.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        .info {
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: rgba(37, 30, 30, 0.7); 
+            border-radius: 45px;
+            color: rgb(255, 255, 255);
+        }
+
+        .info .name {
+            height: auto;
+            font-size: 220%;
+        }
+        .info .id {
+            height: auto;
+            font-size: 170%;
+        }
+        .info .phone {
+            height: auto;
+            font-size: 140%;
+            text-align: left;
+        }
+        .info .avatar {
+
+            border-radius: 50%;
+            border: 5px solid #5c2828a3;
+        }
+        .info .images {
+            filter: brightness(2);
+            width: 150px;; 
+            height: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="particles-js">
+        <div class="info">
+            <img class="avatar" height="190px" src="./images/avatar.jpg" alt="">
+            <p><span class="name">Name : Ho Huy Hoang</span></p>
+            <p><span class="id">Student code : 2305CT0393</span></p>
+            <span class="phone">Phone number : 0333845JQK</span>
+            <p>
+            <h3 style="font-size: 130%; filter: brightness(2);"><a href="https://www.facebook.com/hhoang666/">Facebook</a> | <a href="https://www.tiktok.com/@hhhoang666">Tiktok</a> </h3>
+            </p>
+            <p>
+                <a href="https://hvuh.edu.vn">
+                    <img class="images"  src="https://hvuh.edu.vn/assets/images/logo1.png" alt="HVUH">
+                  </a>
+                <img style="width: 60px;; height: auto;"  src="./images/qr.png" alt="">
+            </p>
+        </div>
+
+    </div>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
